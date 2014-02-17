@@ -11,9 +11,9 @@ var options = {
 
 http.get(options, function(res) {
 	if (res.statusCode == 200) {
-		console.log(color.red("IP 49.49.200."+p+" Detect Rom-0 Bug!"));
+		console.log(color.red("IP 49.49.100."+p+" Detect Rom-0 Bug!"));
 	}else{
-		console.log(color.green("IP 49.49.200."+p+" Pass! ("+res.statusCode+")"));
+		console.log(color.green("IP 49.49.100."+p+" Pass! ("+res.statusCode+")"));
 	}
 }).on('error', function(e) {
   console.log("Got error: " + e.message);
